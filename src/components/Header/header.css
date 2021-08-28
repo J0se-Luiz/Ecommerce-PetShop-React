@@ -1,0 +1,216 @@
+#header-pataNaJanta{
+    /* position: fixed;
+    top: 0; */
+    position: -webkit-sticky;
+    position: sticky;
+    transition: top 1.0s;
+    z-index: 999;
+}
+.itens{
+    color: #351912;
+}
+
+/* EFEITO DE DESAPARECER AO DESCER A PAGINA */
+@media screen and (max-height:699px) and (max-width:769px){
+
+    #header-pataNaJanta{
+        position: static;
+    }
+}
+
+/* EFEITO DE DESAPARECER AO DESCER A PAGINA */
+@media screen and (max-width:769px){
+
+    #header-pataNaJanta{
+        position: static;
+    }
+}
+
+.header{
+    background-color: #b7773f;
+    min-height: 7.19rem;
+    
+}
+
+.linkNav:hover{
+    color: white;
+    background-color: #b86360;
+}
+
+.searchBox{
+    max-width: 38.69rem;
+    display: inline;
+}
+
+/* EFEITO DE DESAPARECER AO DESCER A PAGINA */
+@media screen and (max-height:699px) and (max-width:769px){
+
+    #header-pataNaJanta{
+        position: static;
+    }
+}
+
+/* EFEITO DE DESAPARECER AO DESCER A PAGINA */
+@media screen and (max-width:769px){
+
+    #header-pataNaJanta{
+        position: static;
+    }
+}
+
+/* ========================================================== */
+/* ==================== BOTAO BUSCAR ======================== */
+/* ========================================================== */
+.btn-search{
+    background-color: #b86360;
+    border: solid 2px #9D5452;
+}
+
+.btn-search:hover{
+    background-color: #C27976;
+}
+
+.sucessoDeCompras{
+    color:  #b86360;
+}
+
+/* ========================================================== */
+/* ==================== CARRINHO ======================== */
+/* ========================================================== */
+
+.carrinho-header{
+    font-size: 13px;
+    color: white; 
+    margin-top: 5px
+    
+}
+
+
+.carrinho{
+    /* padding-top: 2.5px;  */
+    margin-top: 1rem;
+    text-align: center; 
+    display:inline-block; 
+    display: block;
+    margin-top: '16px';
+    text-align: 'center'
+   
+}
+
+
+/*======================================================== */
+/* ============ MEDIA QUERY BARRA DE PESQUISA =============== */
+/* ========================================================== */
+
+/* TELA MUITO PEQUENA */
+@media screen and (max-width:392px) {
+
+    .searchBox{
+        width: 12.5rem;
+    }
+
+}
+
+/* TELA MUITO PEQUENA - XSM */
+@media screen and (min-width: 393px) and (max-width:575px) {
+
+    .searchBox{
+        width: 18.75rem;
+    }  
+ 
+}
+
+/* DE SMALL ATE TELAS MEDIAS - MD*/
+@media screen and (min-width:576px) and (max-width:768px){
+
+    .searchBox{
+        width: 11.88rem;
+        margin-left: 1.25rem;
+    }
+
+}
+
+/* DE MEDIUM ATE TELAS LARGAS - LG*/
+@media screen and (min-width:769px) and (max-width:991px){
+
+    .searchBox{
+        width: 21.69rem;
+    }
+    
+}
+
+/* DE LG ATE TELAS EXTRA LARGAS - XLG*/
+@media screen and (min-width:992px) and (max-width:1200px){
+
+    .searchBox{
+        width: 29.81rem;
+    }
+}
+
+/* DE XLG ATE INFINITO*/
+@media screen and (min-width:1201px){
+
+    .searchBox{
+        width: 37.06rem;
+    }
+}
+
+/* ========================================================== */
+/* ==================== MENU =============================== */
+/* ========================================================== */
+
+.link-menu{
+    text-align: center;
+    color:white
+}
+.link-menu:hover{
+    color: white;
+}
+
+.navBar{
+    min-height: 3.75rem;
+    background-color: #351912;
+}
+.btn-nav{
+    padding-left: 2.5rem; 
+    padding-right: 2.5rem;
+
+}
+/*======================================================== */
+/* ==================== MEDIA QUERY MENU ==================*/
+/* ========================================================== */
+
+/* TELA MUITO PEQUENA */
+@media screen and (max-width:392px) {
+
+    .menu{
+        width: 100%;
+    }
+}
+
+/* TELA MUITO PEQUENA - XSM */
+@media screen and (min-width: 393px) and (max-width:575px) {
+
+    .menu{
+        width: 100%;
+    }
+}
+
+/* DE SMALL ATE TELAS MEDIAS - MD*/
+@media screen and (min-width:576px) and (max-width:768px){
+
+
+    .menu{
+        width: 100%;
+    }
+
+}
+
+.menu-dropdown{
+    display: none;
+}
+
+.lihover:hover .menu-dropdown{
+    display: block !important;
+}
+
